@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  font-size: 15px;
+  background-color: #253245;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.left {
+  display: flex;
+  font-size: 20px;
+}
+
+.left .fas {
+  color: orange;
+  margin-right: 10px;
+}
+
+.center {
+  display: flex;
+  font-display: row;
+  padding: 0;
+}
+
+.center li {
+  padding: 5px;
+}
+
+.right i {
+  margin: 5px;
+}
