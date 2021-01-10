@@ -1,3 +1,9 @@
+:root {
+  --text-color: #f0f4f5;
+  --background-color: #263343;
+  --accent-color: #d49466;
+}
+
 body {
   margin: 0;
   font-family: "Source Sans Pro";
@@ -5,7 +11,7 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
+  color: var(--text-color);
 }
 
 .navbar {
@@ -13,16 +19,16 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 8px 12px;
-  background-color: #253245;
+  background-color: var(--background-color);
 }
 
 .navbar__logo {
   font-size: 24px;
-  color: white;
+  color: var(--text-color);
 }
 
 .navbar__logo i {
-  color: orange;
+  color: var(--accent-color);
 }
 
 .navbar__menu {
@@ -36,14 +42,14 @@ a {
 }
 
 .navbar__menu li:hover {
-  background-color: orange;
+  background-color: var(--accent-color);
   border-radius: 4px;
 }
 
 .navbar__icons {
   display: flex;
   list-style: none;
-  color: white;
+  color: var(--text-color);
 }
 
 .navbar__icons li {
@@ -55,7 +61,7 @@ a {
   position: absolute;
   right: 32px;
   font-size: 24px;
-  color: orange;
+  color: var(--accent-color);
 }
 
 @media screen and (max-width: 768px) {
