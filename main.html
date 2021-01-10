@@ -6,24 +6,30 @@
     <title>navbar</title>
     <script src="https://kit.fontawesome.com/2905322478.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="left">
+    <nav class="navbar">
+        <div class="navbar__logo">
             <i class="fas fa-rocket"></i>
-            <div>DreamCoding</div>
+            <a href="">DreamCoding</a>
         </div>
-        <ul class="center">
-            <li>Home</li>
-            <li>Gallery</li>
-            <li>Weddings</li>
-            <li>FAQ</li>
-            <li>Booking</li>
+
+        <ul class="navbar__menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Weddings</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Booking</a></li>
         </ul>
-        <div class="right">
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-facebook-f"></i>
-        </div>
-    </header>
+
+        <ul class="navbar__icons">
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-facebook-f"></i></li>
+        </ul>
+
+        <a href="#" class="navbar__toggleBtn"><i class="fas fa-bars"></i></a>
+    </nav>
 </body>
 </html>
