@@ -64,6 +64,17 @@ a {
   color: var(--accent-color);
 }
 
+.navbar__lang {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar__lang li {
+  margin: 8px 12px;
+}
+
 @media screen and (max-width: 768px) {
   .navbar {
     flex-direction: column;
